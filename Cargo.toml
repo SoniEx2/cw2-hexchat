@@ -1,0 +1,12 @@
+[package]
+name = "hexchat-cw2"
+version = "0.1.0"
+authors = ["SoniEx2 <endermoneymod@gmail.com>"]
+license = "AGPL-3.0-or-later"
+
+[dependencies]
+hexchat-plugin = "0.2"
+
+[lib]
+name = "cw2"
+crate-type = ["cdylib"]
